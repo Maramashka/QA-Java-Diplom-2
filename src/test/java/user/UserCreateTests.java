@@ -17,10 +17,12 @@ import static stellarburgers.generators.UserGenerator.randomUser;
 public class UserCreateTests {
 
     private User user;
+    private User userCopy;
     private UserClient userClient;
     String accessToken;
 
     ValidatableResponse response;
+    ValidatableResponse response2;
 
     @Before
     public void setUp() {
@@ -57,16 +59,18 @@ public class UserCreateTests {
     public void userCreateAlreadyRegisteredErrorTest() {
 
         user = randomUser();
-        userClient.create(user);
-        User userCopy = user;
+        response = userClient.create(user);
+        accessToken = response.extract().path("accessToken");
+        userCopy = new User(user.getEmail(), user.getPassword(), user.getName());
 
-        response = userClient.create(userCopy);
+        response2 = userClient.create(userCopy);
 
-        response.log().all()
+        response2.log().all()
                 .assertThat()
                 .statusCode(HttpStatus.SC_FORBIDDEN)
                 .body("success", is(false))
                 .body("message", is("User already exists"));
+
     }
 
     @Test

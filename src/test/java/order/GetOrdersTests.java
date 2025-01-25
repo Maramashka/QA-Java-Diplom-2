@@ -2,6 +2,7 @@ package order;
 
 import io.qameta.allure.Description;
 import io.restassured.response.ValidatableResponse;
+import org.hamcrest.Matchers;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -9,13 +10,12 @@ import stellarburgers.client.OrderClient;
 import stellarburgers.client.UserClient;
 import stellarburgers.models.User;
 
-import java.util.List;
-
+import static java.util.Optional.empty;
 import static org.apache.http.HttpStatus.SC_OK;
 import static org.apache.http.HttpStatus.SC_UNAUTHORIZED;
-import static org.hamcrest.Matchers.instanceOf;
 import static org.hamcrest.Matchers.is;
 import static stellarburgers.generators.UserGenerator.randomUser;
+
 
 public class GetOrdersTests {
 
@@ -55,7 +55,7 @@ public class GetOrdersTests {
                 .assertThat()
                 .statusCode(SC_OK)
                 .body("success", is(true))
-                .body("orders", instanceOf(List.class));
+                .body("orders", Matchers.not(empty()));
     }
 
     @Test

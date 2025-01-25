@@ -15,7 +15,7 @@
         <lombok.version>1.18.26</lombok.version>
         <junit.version>4.13.2</junit.version>
         <rest-assured.version>5.3.2</rest-assured.version>
-        <allure.version>2.20.1</allure.version>
+        <allure.version>2.15.0</allure.version>
         <aspectj.version>1.9.7</aspectj.version>
     </properties>
 
@@ -103,7 +103,7 @@
                 <artifactId>allure-maven</artifactId>
                 <version>2.10.0</version>
                 <configuration>
-                    <reportVersion>2.20.1</reportVersion>
+                    <reportVersion>2.15.0</reportVersion>
                 </configuration>
             </plugin>
         </plugins>
