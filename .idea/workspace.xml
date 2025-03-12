@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="792fa930-8919-401b-9836-a7437d109a0e" name="Changes" comment="Project description" />
+    <list default="true" id="792fa930-8919-401b-9836-a7437d109a0e" name="Changes" comment="Beauty">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,7 +201,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741771862199</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Beauty">
+      <option name="closed" value="true" />
+      <created>1741772169469</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1741772169469</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Beauty">
+      <option name="closed" value="true" />
+      <created>1741772246945</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1741772246945</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -209,7 +228,8 @@
     <MESSAGE value="Fix test userCopy" />
     <MESSAGE value="+ new allure results" />
     <MESSAGE value="Project description" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project description" />
+    <MESSAGE value="Beauty" />
+    <option name="LAST_COMMIT_MESSAGE" value="Beauty" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
