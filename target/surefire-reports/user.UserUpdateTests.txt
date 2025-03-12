@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: user.UserUpdateTests
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 25.798 s <<< FAILURE! - in user.UserUpdateTests
+userUpdateEmailAfterAuthorizationTest(user.UserUpdateTests)  Time elapsed: 21.839 s  <<< ERROR!
+java.net.ConnectException: Connection timed out: connect
+	at user.UserUpdateTests.userUpdateEmailAfterAuthorizationTest(UserUpdateTests.java:91)
+

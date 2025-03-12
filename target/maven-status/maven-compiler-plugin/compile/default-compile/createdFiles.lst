@@ -1,0 +1,7 @@
+stellarburgers\client\OrderClient.class
+stellarburgers\models\UserCreds.class
+stellarburgers\client\UserClient.class
+stellarburgers\models\User.class
+stellarburgers\models\Ingredients.class
+stellarburgers\generators\UserGenerator.class
+stellarburgers\client\Spec.class
