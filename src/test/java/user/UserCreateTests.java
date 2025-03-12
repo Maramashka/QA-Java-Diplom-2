@@ -22,7 +22,7 @@ public class UserCreateTests {
     String accessToken;
 
     ValidatableResponse response;
-    ValidatableResponse response2;
+    ValidatableResponse responseCopy;
 
     @Before
     public void setUp() {
@@ -63,9 +63,9 @@ public class UserCreateTests {
         accessToken = response.extract().path("accessToken");
         userCopy = new User(user.getEmail(), user.getPassword(), user.getName());
 
-        response2 = userClient.create(userCopy);
+        responseCopy = userClient.create(userCopy);
 
-        response2.log().all()
+        responseCopy.log().all()
                 .assertThat()
                 .statusCode(HttpStatus.SC_FORBIDDEN)
                 .body("success", is(false))

@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: order.OrderCreateTests
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.384 s <<< FAILURE! - in order.OrderCreateTests
+orderCreateWithoutAuthorizationErrorTest(order.OrderCreateTests)  Time elapsed: 0.645 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code one of {<301>, <301>, <303>, <307>} but was <200>.
+
+	at order.OrderCreateTests.orderCreateWithoutAuthorizationErrorTest(OrderCreateTests.java:92)
+
