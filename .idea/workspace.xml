@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="792fa930-8919-401b-9836-a7437d109a0e" name="Changes" comment="+ new allure results">
+    <list default="true" id="792fa930-8919-401b-9836-a7437d109a0e" name="Changes" comment="Project description">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -169,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741769080072</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Project description">
+      <option name="closed" value="true" />
+      <created>1741770597516</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741770597516</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -179,7 +187,8 @@
     <MESSAGE value="with God" />
     <MESSAGE value="Fix test userCopy" />
     <MESSAGE value="+ new allure results" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ new allure results" />
+    <MESSAGE value="Project description" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project description" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
